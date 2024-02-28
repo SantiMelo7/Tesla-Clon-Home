@@ -1,8 +1,9 @@
-# React + Vite
+<title className="text-2xl text-white font-extrabold uppercase">Tesla Clon | Home</title>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p className="text-xl text-blue-200 font-extrabold">En este repositorio inicializo un proyecto de Vite donde hago el clon de tesla, la parte del home, con la idea de demostrar mis habilidades en css
+</p>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div className="flex flex-col justify-center items-center">
+<img src="./public/readme/home-1.png"/>
+<img src="./public/readme/home-2.png"/>
+</div>
