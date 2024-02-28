@@ -5,7 +5,7 @@ import Image from "../images/Image";
 export default function Model3() {
   return (
     <section className="text-center h-screen w-screen relative">
-      <Section title="Model 3" className="text-black">
+      <Section title="Model 3" className="text-black animate-slide-in-bottom">
         <footer className="flex flex-col flex-grow justify-end mb-[45px] font-extrabold">
           <LinkDouble />
         </footer>

@@ -10,33 +10,30 @@ export default function Menu() {
   const { menuStyles, handleMouseEnter, handleMouseLeave } = useHover();
 
   return (
-    <header className="px-10 py-10 md:-top-6 sm:-left-6 flex items-center w-full fixed justify-between z-40">
+    <header className="px-10 py-10 md:-top-8 sm:-left-6 flex items-center w-full fixed justify-between z-50 animate-slide-in-top">
       <SvgResponsive />
-      <div
-        className={`absolute bg-gray-200 transition-all`}
-        style={menuStyles}
-      ></div>
       <nav>
-        <ul className="md:flex sm:hidden gap-x-6 text-sm [&>li>a]:font-bold">
+        <ul className="md:flex sm:hidden gap-x-6 text-sm [&>li]: font-extrabold">
+          <li
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          ></li>
           <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <a href="#"></a>Vehiculos
+            Energía
           </li>
           <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <a href="#"></a>Energía
+            Carga
           </li>
           <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <a href="#"></a>Carga
+            Descubrir
           </li>
           <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <a href="#"></a>Descubrir
-          </li>
-          <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <a href="#"></a>Tienda
+            Tienda
           </li>
         </ul>
       </nav>
       <nav className="flex flex-grow justify-end right-2 basis-0 relative -top-[3px]">
-        <ul className="md:flex sm:hidden gap-x-6 [&>li>a]:font-bold">
+        <ul className="md:flex sm:hidden gap-x-6 [&>li>]: font-extrabold">
           <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <LanguageIcon className="w-[20px] h-[20px] border-[#171a20] text-[#171a20]" />
           </li>
@@ -48,6 +45,10 @@ export default function Menu() {
           </li>
         </ul>
       </nav>
+      <div
+        className={`absolute bg-gray-500 backdrop-blur-lg`}
+        style={menuStyles}
+      ></div>
     </header>
   );
 }
