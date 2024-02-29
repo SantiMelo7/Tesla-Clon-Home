@@ -1,4 +1,4 @@
-import { ComponentMain } from "./layout/index";
+import { ComponentMain } from "./conventional/ComponentMain";
 
 export const App = () => {
   return <ComponentMain />;
