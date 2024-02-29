@@ -1,4 +1,4 @@
-import Section from "../Section";
+import { Section } from "../layout/index";
 import Image from "../images/Image";
 import { Link } from "../buttons/index";
 

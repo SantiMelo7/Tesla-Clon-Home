@@ -1,4 +1,4 @@
-import Section from "../Section";
+import { Section } from "../layout/index";
 import { LinkDouble } from "../buttons/index";
 import Image from "../images/Image";
 

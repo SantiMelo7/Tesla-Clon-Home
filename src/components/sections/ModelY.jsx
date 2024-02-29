@@ -1,5 +1,5 @@
-import Section from "../Section";
-import Video from "../Video";
+import { Section } from "../layout/index";
+import { Video } from "../layout/index";
 import { LinkDouble } from "../buttons/LinkDouble";
 
 export const ModelY = () => {

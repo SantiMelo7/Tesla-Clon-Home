@@ -1,5 +1,5 @@
-import Section from "../Section.jsx";
-import Video from "../Video.jsx";
+import { Section } from "../layout/index.js";
+import { Video } from "../layout/Video.jsx";
 import { Link } from "../buttons/index.js";
 
 export const VideoExperiencie = () => {
