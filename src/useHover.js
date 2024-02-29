@@ -3,9 +3,9 @@ import { useState } from "react";
 export function useHover() {
     const [menuStyles, setMenuStyles] = useState({
         left: "0px",
-        top: "30px",
-        width: "6px",
-        height: "6px",
+        top: "0px",
+        width: "0px",
+        height: "10px",
         opacity: "0",
         visibility: "hidden",
     });

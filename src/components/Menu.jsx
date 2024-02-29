@@ -10,14 +10,13 @@ export default function Menu() {
   const { menuStyles, handleMouseEnter, handleMouseLeave } = useHover();
 
   return (
-    <header className="px-10 py-10 md:-top-8 sm:-left-6 flex items-center w-full fixed justify-between z-50 animate-slide-in-top">
+    <header className="px-10 py-10 md:-top-6 sm:-left-6 flex items-center w-full fixed justify-between z-50 animate-slide-in-top">
       <SvgResponsive />
       <nav>
-        <ul className="md:flex sm:hidden gap-x-6 text-sm [&>li]: font-extrabold">
-          <li
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-          ></li>
+        <ul className="md:flex sm:hidden gap-x-8 text-sm [&>li]: font-extrabold">
+          <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            Vehículos
+          </li>
           <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             Energía
           </li>
@@ -41,14 +40,17 @@ export default function Menu() {
             <HelpOutlineIcon className="w-[20px] h-[20px] border-[#171a20] text-[#171a20]" />
           </li>
           <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <AccountCircleIcon className="w-[20px] h-[20px] border-[#333] text-[#333]" />
+            <AccountCircleIcon className="w-[20px] h-[20px] border-[#171a20] text-[#171a20]" />
           </li>
         </ul>
       </nav>
-      <div
-        className={`absolute bg-gray-500 backdrop-blur-lg`}
-        style={menuStyles}
-      ></div>
+      <div className="absolute top-[24px] left-[23px] right-0 rounded-md">
+        <div
+          className="absolute bg-black/5 backdrop-blur-lg rounded-sm transition-all duration-500
+          ease-in-out opacity-0 -z-10"
+          style={menuStyles}
+        ></div>
+      </div>
     </header>
   );
 }

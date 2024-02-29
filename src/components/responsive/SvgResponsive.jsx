@@ -1,6 +1,6 @@
 export default function SvgResponsive() {
   return (
-    <div className="flex flex-grow basis-10">
+    <div className="flex flex-grow basis-16">
       <svg
         className="md:mt-0 sm:-mt-20 sm:w-[120px]"
         viewBox="0 0 342 35"
