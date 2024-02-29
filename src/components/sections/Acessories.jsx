@@ -1,4 +1,4 @@
-import { Section } from "../layout/index";
+import { Footer, Section } from "../layout/index";
 import Image from "../images/Image";
 import { Link } from "../buttons/index";
 
@@ -12,6 +12,9 @@ export const Acessories = () => {
             text="Compra ahora"
             className="py-2.5 px-15 bg-white text-black"
           />
+          <div className="md:flex md:justify-center md:mt-2 sm:hidden">
+            <Footer />
+          </div>
         </footer>
       </Section>
       <Image src="./accessories.avif" alt="Accessories Image" />

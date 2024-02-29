@@ -7,7 +7,7 @@ import {
   Powerwall,
   Acessories,
 } from "../components/sections/index";
-import { Menu } from "../components/layout/index";
+import { Footer, Menu } from "../components/layout/index";
 
 export const ComponentMain = () => {
   return (
@@ -34,6 +34,9 @@ export const ComponentMain = () => {
         </div>
         <div className="snap-center">
           <Acessories />
+        </div>
+        <div className="snap-center xl:hidden md:hidden">
+          <Footer />
         </div>
       </main>
     </>
