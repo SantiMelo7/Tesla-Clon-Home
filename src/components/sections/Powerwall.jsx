@@ -1,8 +1,8 @@
 import Section from "../Section";
-import Link from "../buttons/Link";
+import { Link } from "../buttons/Link";
 import Image from "../images/Image";
 
-export default function Powerwall() {
+export const Powerwall = () => {
   return (
     <section className="text-center h-screen w-screen relative overflow-hidden">
       <Section
@@ -23,4 +23,4 @@ export default function Powerwall() {
       <Image src="./powerwall.avif" alt="Powerwall Image" />
     </section>
   );
-}
+};

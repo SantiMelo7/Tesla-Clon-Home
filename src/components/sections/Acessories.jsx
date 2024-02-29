@@ -1,8 +1,8 @@
 import Section from "../Section";
-import Link from "../buttons/Link";
 import Image from "../images/Image";
+import { Link } from "../buttons/index";
 
-export default function Acessories() {
+export const Acessories = () => {
   return (
     <section className="text-center h-screen w-screen relative">
       <Section title="Accesorios" className="text-black relative bottom-3">
@@ -17,4 +17,4 @@ export default function Acessories() {
       <Image src="./accessories.avif" alt="Accessories Image" />
     </section>
   );
-}
+};

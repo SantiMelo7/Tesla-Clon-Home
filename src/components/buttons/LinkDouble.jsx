@@ -1,4 +1,4 @@
-export default function LinkDouble() {
+export const LinkDouble = () => {
   return (
     <div className="flex md:flex-row sm:flex-col sm:gap-y-4 mx-auto gap-x-3">
       <a
@@ -19,4 +19,4 @@ export default function LinkDouble() {
       </a>
     </div>
   );
-}
+};

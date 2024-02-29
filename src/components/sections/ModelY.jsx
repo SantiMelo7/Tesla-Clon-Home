@@ -1,8 +1,8 @@
 import Section from "../Section";
 import Video from "../Video";
-import LinkDouble from "../buttons/LinkDouble";
+import { LinkDouble } from "../buttons/LinkDouble";
 
-export default function ModelY() {
+export const ModelY = () => {
   return (
     <section className="text-center h-screen w-screen relative overflow-hidden">
       <Section title="Model Y" className="text-white">
@@ -13,4 +13,4 @@ export default function ModelY() {
       <Video src="./model-y.mp4" alt="Model-Y Image" />
     </section>
   );
-}
+};

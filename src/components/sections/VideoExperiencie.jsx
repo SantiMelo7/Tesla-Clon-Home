@@ -1,8 +1,8 @@
 import Section from "../Section.jsx";
 import Video from "../Video.jsx";
-import Link from "../buttons/Link.jsx";
+import { Link } from "../buttons/index.js";
 
-export default function VideoExperiencie() {
+export const VideoExperiencie = () => {
   return (
     <section className="text-center h-screen w-screen relative overflow-hidden">
       <Section
@@ -20,4 +20,4 @@ export default function VideoExperiencie() {
       <Video src="./experience-tesla.webm" />
     </section>
   );
-}
+};

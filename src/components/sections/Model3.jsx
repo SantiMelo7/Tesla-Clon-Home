@@ -1,8 +1,8 @@
 import Section from "../Section";
-import LinkDouble from "../buttons/LinkDouble";
+import { LinkDouble } from "../buttons/index";
 import Image from "../images/Image";
 
-export default function Model3() {
+export const Model3 = () => {
   return (
     <section className="text-center h-screen w-screen relative">
       <Section title="Model 3" className="text-black animate-slide-in-bottom">
@@ -13,4 +13,4 @@ export default function Model3() {
       <Image src="./model-3.avif" alt="Model-3 Image" />
     </section>
   );
-}
+};
