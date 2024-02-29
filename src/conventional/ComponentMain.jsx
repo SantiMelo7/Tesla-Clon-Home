@@ -7,7 +7,7 @@ import {
   Powerwall,
   Acessories,
 } from "../components/sections/index";
-import { Menu } from "../components/Menu";
+import { Menu } from "../components/layout/index";
 
 export const ComponentMain = () => {
   return (
