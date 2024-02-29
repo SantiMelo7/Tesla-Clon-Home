@@ -1,4 +1,4 @@
-<div className="bg-blue-200">
+<div>
 <h1 className="text-2xl text-white font-extrabold uppercase">Tesla Clon | Home</h1>
 
 <p className="text-xl text-blue-200 font-extrabold">In this repository I initialize a Vite project where I make the Tesla clone, the home part, with the idea of demonstrating my CSS skills
@@ -10,22 +10,22 @@
 </div>
 
 <section className="mt-5 flex flex-col gap-y-3 max-w-max min-h-screen mx-auto">
-        <h1 className="text-xl font-extrabold text-center mt-3">
-          Herramientas Con Las Que Se Elaboro El Proyecto
-        </h1>
-        <div className="grid grid-cols-4 gap-4">
-          <img src="./public/readme/React.svg" width={50} height={50}></img>
-          <p className="text-md font-bold mt-3">React Js</p>
-          <img src="./public/readme/js.svg" width={50} height={50}></img>
-          <p className="text-md font-bold mt-3">Javascript</p>
-          <img src="./public/readme/Tailwind.png" width={50} height={50}></img>
-          <p className="text-md font-bold mt-3">Tailwind</p>
-          <img src="./public/readme/Vite.png" width={50} height={50}></img>
-          <p className="text-md font-bold mt-3">Vite</p>
-          <img src="./public/readme/animations.svg" width={50} height={50}></img>
-          <p className="text-md font-bold mt-3">Tailwind css animations</p>
-          <img src="./public/readme/material-ui.svg" width={50} height={50}></img>
-          <p className="text-md font-bold mt-3">Material UI</p>
-        </div>
-      </section>
-</div>
+  <h1 className="text-xl font-extrabold text-center mt-3">
+    Herramientas Con Las Que Se Elaboro El Proyecto
+  </h1>
+  <div className="grid grid-cols-4 gap-4">
+    <img src="./public/readme/React.svg" width={50} height={50}></img>
+    <p className="text-md font-bold mt-3">React Js</p>
+    <img src="./public/readme/js.svg" width={50} height={50}></img>
+    <p className="text-md font-bold mt-3">Javascript</p>
+    <img src="./public/readme/Tailwind.png" width={50} height={50}></img>
+    <p className="text-md font-bold mt-3">Tailwind</p>
+    <img src="./public/readme/Vite.png" width={50} height={50}></img>
+    <p className="text-md font-bold mt-3">Vite</p>
+    <img src="./public/readme/animations.svg" width={50} height={50}></img>
+    <p className="text-md font-bold mt-3">Tailwind css animations</p>
+    <img src="./public/readme/material-ui.svg" width={50} height={50}></img>
+    <p className="text-md font-bold mt-3">Material UI</p>
+    </div>
+</section>
+</>
