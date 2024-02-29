@@ -3,7 +3,7 @@ export default function Image({ src, alt }) {
     <div className="absolute md:top-0 bottom-0 w-full h-full z-10">
       <img
         src={src}
-        className="w-full h-full md:object-cover md:object-center sm:object-cover sm:object-bottom"
+        className="w-full h-full md:object-cover md:object-center sm:object-fit"
         alt={alt}
       />
     </div>
