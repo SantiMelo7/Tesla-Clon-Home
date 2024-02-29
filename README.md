@@ -14,17 +14,17 @@
     Herramientas Con Las Que Se Elaboro El Proyecto
   </h1>
   <div className="grid grid-cols-4 gap-4">
-    <img src="./public/readme/React.svg" width={50} height={50}></img>
+    <img src="./public/readme/React.svg" width={10} height={10}></img>
     <p className="text-md font-bold mt-3">React Js</p>
-    <img src="./public/readme/js.svg" width={50} height={50}></img>
+    <img src="./public/readme/js.svg" width={10} height={10}></img>
     <p className="text-md font-bold mt-3">Javascript</p>
-    <img src="./public/readme/Tailwind.png" width={50} height={50}></img>
+    <img src="./public/readme/Tailwind.png" width={10} height={10}></img>
     <p className="text-md font-bold mt-3">Tailwind</p>
-    <img src="./public/readme/Vite.png" width={50} height={50}></img>
+    <img src="./public/readme/Vite.png" width={10} height={10}></img>
     <p className="text-md font-bold mt-3">Vite</p>
-    <img src="./public/readme/animations.svg" width={50} height={50}></img>
+    <img src="./public/readme/animations.svg" width={10} height={10}></img>
     <p className="text-md font-bold mt-3">Tailwind css animations</p>
-    <img src="./public/readme/material-ui.svg" width={50} height={50}></img>
+    <img src="./public/readme/material-ui.svg" width={10} height={10}></img>
     <p className="text-md font-bold mt-3">Material UI</p>
     </div>
 </section>
