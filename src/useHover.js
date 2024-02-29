@@ -5,7 +5,7 @@ export function useHover() {
         left: "0px",
         top: "0px",
         width: "0px",
-        height: "10px",
+        height: "0px",
         opacity: "0",
         visibility: "hidden",
     });
