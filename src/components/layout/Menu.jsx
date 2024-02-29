@@ -3,8 +3,8 @@
 import LanguageIcon from "@mui/icons-material/Language";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import SvgResponsive from "./responsive/SvgResponsive";
-import { ListMenu, HoverDiv } from "../layout/index";
+import SvgResponsive from "../responsive/SvgResponsive";
+import { ListMenu, HoverDiv } from "../../conventional/index";
 
 export const Menu = () => {
   return (

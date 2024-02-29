@@ -1,4 +1,4 @@
-export default function Video({ src }) {
+export const Video = ({ src }) => {
   return (
     <div className="absolute top-0 bottom-0 h-full w-full z-10">
       <video
@@ -10,4 +10,4 @@ export default function Video({ src }) {
       ></video>
     </div>
   );
-}
+};

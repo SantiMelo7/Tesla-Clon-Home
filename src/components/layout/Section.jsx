@@ -1,4 +1,10 @@
-export default function Section({ title, className, classNameSub, subTitle, children }) {
+export const Section = ({
+  title,
+  className,
+  classNameSub,
+  subTitle,
+  children,
+}) => {
   return (
     <>
       <section
@@ -7,7 +13,9 @@ export default function Section({ title, className, classNameSub, subTitle, chil
       >
         <div className="relative z-30 flex flex-col h-screen text-white overflow-auto">
           <section className="mt-28">
-            <h2 className={`${className} text-4xl mb-1 font-medium`}>{title}</h2>
+            <h2 className={`${className} text-4xl mb-1 font-medium`}>
+              {title}
+            </h2>
             <p className={`${classNameSub} text-sm mt-2 font-medium`}>
               {subTitle}
             </p>
@@ -17,4 +25,4 @@ export default function Section({ title, className, classNameSub, subTitle, chil
       </section>
     </>
   );
-}
+};
