@@ -8,4 +8,20 @@
 <img src="./public/readme/home-1.png"/>
 <img src="./public/readme/home-2.png"/>
 </div>
+
+<section className="mt-5 flex flex-col gap-y-3 max-w-max min-h-screen mx-auto">
+        <h1 className="text-xl font-extrabold text-center mt-3">
+          Herramientas Con Las Que Se Elaboro El Proyecto
+        </h1>
+        <div className="grid grid-cols-4 gap-4">
+          <img src="readme/React.svg" width={50} height={50}></img>
+          <p className="text-md font-bold mt-3">React Js</p>
+          <img src="readme/js.svg" width={50} height={50}></img>
+          <p className="text-md font-bold mt-3">Javascript</p>
+          <img src="readme/Tailwind.png" width={50} height={50}></img>
+          <p className="text-md font-bold mt-3">Tailwind</p>
+          <img src="readme/Vite.png" width={50} height={50}></img>
+          <p className="text-md font-bold mt-3">Vite</p>
+        </div>
+      </section>
 </div>
