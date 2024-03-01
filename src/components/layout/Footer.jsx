@@ -2,13 +2,12 @@ export const Footer = () => {
   return (
     <footer
       className={`
-        relative md:bg-transparent sm:bg-[#000] md:border-none
-        sm:border-white sm:border-t-[2px] h-full`}
+        relative md:bg-transparent opacity-[1] sm:bg-[#000] md:border-none block
+        sm:border-white sm:border-t-[1px] h-full`}
     >
       <ul
         className={`
-          flex md:flex-row sm:flex-col justify-center items-center gap-x-4
-          sm:text-sm sm:pt-5 sm:gap-y-4 text-[#d0d1d2] font-light
+          flex md:flex-row sm:flex-col justify-center items-center gap-x-4 sm:pt-5 sm:gap-y-4 text-[#d0d1d2] list-footer
         `}
       >
         <li className="">Tesla @ 2024</li>
