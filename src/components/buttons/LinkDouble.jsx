@@ -1,4 +1,4 @@
-import LinksMultiple from "../../conventional/index";
+import { LinksMultiple } from "../../conventional/index";
 
 export const LinkDouble = () => {
   return (

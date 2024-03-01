@@ -1,4 +1,4 @@
-export default function LinksMultiple({ text, className }) {
+export const LinksMultiple = ({ text, className }) => {
   return (
     <a
       className={` inline-block py-2 px-14 text-sm rounded-[4px] font-normal
@@ -9,4 +9,4 @@ export default function LinksMultiple({ text, className }) {
       {text}
     </a>
   );
-}
+};
