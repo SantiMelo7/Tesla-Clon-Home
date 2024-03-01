@@ -12,7 +12,7 @@ export const Acessories = () => {
             text="Compra ahora"
             className="py-2.5 px-15 bg-white text-black"
           />
-          <div className="md:flex md:justify-center md:mt-2 sm:hidden">
+          <div className="md:flex md:justify-center md:mt-4 sm:hidden">
             <Footer />
           </div>
         </footer>

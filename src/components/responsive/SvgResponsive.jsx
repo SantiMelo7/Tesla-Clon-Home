@@ -11,7 +11,7 @@ export default function SvgResponsive() {
           fill="currentColor"
         ></path>
       </svg>
-      <div className="bg-[#0000000d] backdrop-blur-[16px] my-2 py-1 px-6 sm:relative sm:bottom-10 sm:left-48 lg:hidden">
+      <div className="bg-[#0000000d] backdrop-blur-[16px] my-2 py-1 px-6 sm:relative sm:bottom-10 sm:left-44 lg:hidden">
         <span className="text-[#171a20]">Menú</span>
       </div>
     </div>

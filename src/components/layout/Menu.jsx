@@ -20,7 +20,7 @@ export const Menu = () => {
         </ul>
       </nav>
       <nav className="flex flex-grow justify-end right-2 basis-0 relative -top-[3px]">
-        <ul className="lg:flex sm:hidden gap-x-8 text-sm [&>li]: font-extrabold">
+        <ul className="lg:flex sm:hidden gap-x-4 text-sm [&>li]: font-extrabold">
           <ListMenu
             text={
               <LanguageIcon className="w-[20px] h-[20px] border-[#171a20] text-[#171a20]" />
