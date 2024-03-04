@@ -6,6 +6,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ['Gotham SSm A, sans-serif']
+    },
     screens: {
       'sm': '300px',
       'md': '768px',

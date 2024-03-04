@@ -8,10 +8,10 @@ export const ListMenu = ({ text }) => {
       <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         {text}
       </li>
-      <div className="absolute top-[18px] left-[23px] right-0">
+      <div className="absolute top-[22px] left-[22px] right-0">
         <div
           className="absolute bg-black/5 backdrop-blur-lg transition-all duration-500
-          ease-in-out opacity-0 -z-10 py-4 "
+          ease-out opacity-0 -z-20"
           style={menuStyles}
         ></div>
       </div>
