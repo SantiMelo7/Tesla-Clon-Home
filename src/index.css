@@ -11,5 +11,5 @@ ul.list-footer {
 }
 
 img {
-  @apply w-full h-full md:object-center md:object-cover sm:object-cover sm:object-top;
+  @apply w-full h-full object-cover;
 }
